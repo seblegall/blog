@@ -2,7 +2,7 @@
 theme = "northendlab"
 baseURL = "/"
 languageCode = "en-us"
-title = "Sébastien Le Gall"
+title = "Sébastien Le Gall - I help people build great software together"
 metaDataFormat = "yaml"
 disqusShortname = "seblegall"
 
