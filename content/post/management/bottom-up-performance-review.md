@@ -2,7 +2,7 @@
 title: "The bottom-up performance review"
 description: "A innovative way of thinking managers performance review"
 date:   2019-01-15T14:00:00+02:00
-author: Sébastien Le Gall
+author: Sebastien Le Gall
 categories: [management, Agile, management 3.0]
 ---
 ![performance review](/img/article/performance-review.jpg)

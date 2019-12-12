@@ -2,7 +2,7 @@
 title:  "Estimation des projets au forfait : la contractualisation itérative, une piste de réflexion"
 description: "L'état des projets informatiques en 2015"
 date:   2015-06-09T19:49:34+02:00
-author: Sébastien Le Gall
+author: Sebastien Le Gall
 category: agility
 categories: [scrum, agility]
 ---

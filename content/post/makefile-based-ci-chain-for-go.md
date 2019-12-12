@@ -2,7 +2,7 @@
 title: "A Makefile based CI/CD chain for Go"
 description: "Building a Makefile for Go"
 date:   2018-04-19T16:00:00+02:00
-author: Sébastien Le Gall
+author: Sebastien Le Gall
 categories: [Go, Makefile, travis]
 ---
 

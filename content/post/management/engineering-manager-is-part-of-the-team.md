@@ -2,7 +2,7 @@
 title: "The Engineering Manager is part of the team"
 description: "Bullshit start when the manager excluded herself/himself from the team."
 date:   2019-04-08T09:00:00+02:00
-author: Sébastien Le Gall
+author: Sebastien Le Gall
 categories: [management, Agile, management 3.0]
 ---
 

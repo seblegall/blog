@@ -2,7 +2,7 @@
 title: "Handling validation errors from API-Gateway with AWS Amplify using ReactJs"
 description: "How to properly manage errors coming from the API with aws-amplify"
 date:   2018-04-11T18:00:00+02:00
-author: Sébastien Le Gall
+author: Sebastien Le Gall
 categories: [AWS, API-Gateway, Amplify]
 ---
 

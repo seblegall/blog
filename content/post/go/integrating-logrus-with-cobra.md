@@ -2,7 +2,7 @@
 title: "Integrating logrus with cobra"
 description: "Setting up the log level before any command execution"
 date:   2019-01-17T14:00:00+02:00
-author: Sébastien Le Gall
+author: Sebastien Le Gall
 categories: [Go, logrus, cobra]
 ---
 > You can find a working example on my GitHub: [https://github.com/seblegall/blog-scripts/tree/master/logrus-cobra](https://github.com/seblegall/blog-scripts/tree/master/logrus-cobra)

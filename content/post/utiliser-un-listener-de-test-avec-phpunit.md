@@ -2,7 +2,7 @@
 title:  "Utiliser un listener de test avec PhpUnit"
 description: "Si vous avez déjà utilisé PHPUnit, vous avez forcément en tête la succession de points qui s'affichent dans la console pour signifier que les tests passent. Sans doute aussi avez-vous l'habitude de vous ronger les ongles de peur qu'un joli F rouge apparaisse."
 date:   2015-03-21T19:49:34+02:00
-author: Sébastien Le Gall
+author: Sebastien Le Gall
 categories: [php, phpunit]
 ---
 

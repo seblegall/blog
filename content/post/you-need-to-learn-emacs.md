@@ -2,7 +2,7 @@
 title: "As a developer in 2016, you need to learn Emacs (or Vi)"
 description: "How to improve your productivity writing code and force yourself to think twice."
 date:   2016-07-15T14:49:34+02:00
-author: Sébastien Le Gall
+author: Sebastien Le Gall
 categories: [emacs, vi]
 ---
 

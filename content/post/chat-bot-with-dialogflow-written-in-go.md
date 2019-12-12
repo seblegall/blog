@@ -2,7 +2,7 @@
 title: "Building a really smart Jabber chatbot with Dialogflow"
 description: "An XMPP chatbot relying on an NLP engine, written in Go"
 date:   2018-04-10T08:00:00+02:00
-author: Sébastien Le Gall
+author: Sebastien Le Gall
 categories: [Go, Dialogflow, AI, NLP, Jabber, XMPP]
 ---
 

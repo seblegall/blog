@@ -2,7 +2,7 @@
 title: "Copying files from local file system to a running container"
 description: "Introducing Kopy"
 date:   2019-07-05T09:00:00+02:00
-author: Sébastien Le Gall
+author: Sebastien Le Gall
 categories: [Kubernetes, Docker, cloud native, Go]
 ---
 

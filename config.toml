@@ -58,10 +58,10 @@ URL = "contact"
 name = "Contact"
 weight = 1
 
-[[menu.main]]
-URL = "tools"
-name = "tools"
-weight = 2
+# [[menu.main]]
+# URL = "tools"
+# name = "tools"
+# weight = 2
 
 # footer menu
 [[menu.footer]]
@@ -69,17 +69,17 @@ URL = "contact"
 name = "Contact"
 weight = 1
 
-[[menu.footer]]
-URL = "tools"
-name = "tools"
-weight = 2
+# [[menu.footer]]
+# URL = "tools"
+# name = "tools"
+# weight = 2
 
 ######################### Default Parameters ###########################
 [params]
 # home
 home = "Home"
 # logo
-logo = "images/logo.svg"
+logo = "images/logo.png"
 # meta data
 author = "Themefisher"
 description = "This is meta description"
@@ -88,7 +88,7 @@ googleAnalitycsID = "UA-78265570-1"
 # contact form action
 contactFormAction = "https://formspree.io/xvogyjrl" # contact form works with : https://formspree.io
 # copyright
-copyright = "&copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved"
+copyright = "&copy; 2019 Sébastien Le Gall All Rights Reserved"
 
 # preloader
 [params.preloader]
@@ -102,7 +102,7 @@ enable = true
 ####################### banner #######################################
 [params.banner]
 bgImage = "images/banner/banner-bg.svg"
-title = "Hi, I'm Sébastien Le Gall. <br> I help people make great softwares together."
+title = "Hi, I'm Sébastien Le Gall. <br> I help people build great software together."
 image = "images/banner/illustration.svg"
 
 

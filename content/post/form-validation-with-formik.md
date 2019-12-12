@@ -2,7 +2,7 @@
 title: "Form validation with React using Formik and Redux"
 description: "How to do sync (JS) and async (calling the api) validation in React using Formik and redux"
 date:   2018-03-27T13:00:00+02:00
-author: Sébastien Le Gall
+author: Sebastien Le Gall
 categories: [React, Formik, Redux, MaterialUI]
 ---
 

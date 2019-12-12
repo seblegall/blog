@@ -2,7 +2,7 @@
 title:  "Symfony REST api : validating data that will be stored in different entities"
 description: "How to solve the validation problem when designing a REST api with Symfony"
 date:   2016-06-16T14:49:34+02:00
-author: Sébastien Le Gall
+author: Sebastien Le Gall
 categories: [php,symfony]
 ---
 

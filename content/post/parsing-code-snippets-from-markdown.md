@@ -2,7 +2,7 @@
 title: "Parsing code snippets from markdown with Go"
 description: "Extracting code snippets from github README file using Go"
 date:   2018-03-15T09:00:00+02:00
-author: Sébastien Le Gall
+author: Sebastien Le Gall
 categories: [Go, Markdown, Github]
 ---
 

@@ -2,7 +2,7 @@
 title: "Priority #1 kills priorities"
 description: "Priorities brings confusion and means saying yes to everything."
 date:   2019-04-17T14:00:00+02:00
-author: Sébastien Le Gall
+author: Sebastien Le Gall
 categories: [management, Agile, management 3.0, product management, backlog]
 ---
 
