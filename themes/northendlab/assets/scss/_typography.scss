@@ -25,6 +25,10 @@ a {
   }
 }
 
+a,
+.title {
+  color: $text-color-dark;
+}
 h1,h2,h3,h4,h5,h6 {
   color: $text-color-dark;
   font-family: $primary-font;
@@ -45,6 +49,9 @@ h2, .h2{
   font-size: 40px;
 }
 
+h2.title {
+  font-weight: 900;
+}
 h3, .h3{
   font-size: 30px;
 }

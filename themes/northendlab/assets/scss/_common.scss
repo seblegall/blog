@@ -44,10 +44,14 @@ select {
 }
 
 .section {
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 80px;
 }
 
+.single-section {
+  padding-top: 10px;
+  padding-bottom: 80px;
+}
 .bg-cover {
   background-size: cover;
   background-position: center center;

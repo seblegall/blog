@@ -102,7 +102,10 @@ enable = true
 ####################### banner #######################################
 [params.banner]
 bgImage = "images/banner/banner-bg.svg"
-title = "Hi, I'm Sébastien Le Gall. <br> I help people build great software together."
+title = """
+Hi, I am Sébastien.  
+I help people build great software together.
+"""
 image = "images/banner/illustration.svg"
 
 
