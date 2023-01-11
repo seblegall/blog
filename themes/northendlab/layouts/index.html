@@ -20,7 +20,7 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-10 mx-auto px-0">
+      <div class="col-lg-12 mx-auto px-0">
         <div class="shadow px-sm-5 px-md-3 px-3 py-5">
           {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
           {{ range $paginator.Pages }}

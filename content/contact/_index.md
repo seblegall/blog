@@ -6,4 +6,4 @@ description : "this is meta description"
 image: "images/contact.svg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor.
+Please, don't hesitate to contact me if you have questions or would like to talk to me about my work. However, be aware that I don't answer commercial e-mail.  
