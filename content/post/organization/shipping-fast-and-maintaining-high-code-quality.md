@@ -1,9 +1,19 @@
 ---
 title: "How Meetic works: an organization designed to ship fast and maintain quality"
-description: "How Meetic achieves to do both."
-date:   2023-01-11T11:00:00+02:00
+description: How Meetic organization achieves both shipping fast and raising the bar on
+  code quality.
+date: 2023-01-11T21:19:59.017Z
 author: Sebastien Le Gall
-categories: [organization, management]
+categories:
+  - organization
+  - management
+keywords:
+  - engineering organization
+  - hiring
+  - Meetic
+  - organization
+  - technical debt
+  - interview
 ---
 
 Meetic, like most tech-first companies, needs to keep its code base clean and scalable. It is our biggest asset, and we need to take care of it. Most companies are either good at shipping fast or maintaining high code quality. Doing both is hard and we've been working on this topic for a while.
@@ -39,15 +49,15 @@ Thus, teams work on 3 types of projects.
 
 **Small changes**, which are the kind of evolutions we do either by convictions or other teams' requirements. It could be the marketing team, the legal & privacy teams, the security team, etc.
 
-From a technical point of view, *quick experiments* are generally considered throwable. In this area of work, we assume doing quick and dirty stuff. But only because we know that, if an experiment leads to identifying a good opportunity, we will build the feature from scratch anyway. All other project types are expected to be built on high-quality standards.
+From a technical point of view, *quick experiments* are generally considered disposable. In this area of work, we assume doing quick and dirty stuff. But only because we know that, if an experiment leads to identifying a good opportunity, we will build the feature from scratch anyway. All other project types are expected to be built on high-quality standards.
 
 #### The communities keep the code clean
 
-However, with time comes technical dept. And it's ok. Whatever quality standards you rely on, they are likely to evolve. At some point, the code you wrote 2 years ago won't match your current quality standards and best practices. Tech dept doesn’t necessarily come from wrong practices or quick and dirty developments. Practices and languages evolve. We call it technical debt as if it was something you can pay one shot and go away. But, to me, the technical dept is more like a rent you need to pay periodically.
+However, with time comes technical debt. And it's ok. Whatever quality standards you rely on, they are likely to evolve. At some point, the code you wrote 2 years ago won't match your current quality standards and best practices. Tech debt doesn’t necessarily come from wrong practices or quick and dirty developments. Practices and languages evolve. We call it technical debt as if it was something you can pay one shot and go away. But, to me, the technical debt is more like a rent you need to pay periodically.
 
 This is why we have tech communities.
 
-**The communitues goals are to make people share their practices, their ideas, and their readings but also to work on technical projects, mostly refactoring.** Communities are accountable for the quality of the code base they own. They are expected to challenge the guidelines and practices, but also to bring new ideas to the table as well as adopt new technologies.
+**The communities goals are to make people share their practices, their ideas, and their readings but also to work on technical projects, mostly refactoring.** Communities are accountable for the quality of the code base they own. They are expected to challenge the guidelines and practices, but also to bring new ideas to the table as well as adopt new technologies.
 
 To guarantee the best collaboration on tech topics, we organize what we call *Community Days* every two weeks (every sprint). These are full days where engineers take time to share and work together on technical topics. The tech leads are expected to set the pace of the day with sharing sessions, workshops, and hands-on dedicated time over the day.
 
@@ -61,7 +71,7 @@ The way we balance feature development and technical maintenance relies heavily 
 
 To be honest, switching between building features and making small technical improvements is hard. Especially for engineers. It relies heavily on [the boy scout rule](https://www.oreilly.com/library/view/97-things-every/9780596809515/ch08.html). But moreover, it requires rigor.
 
-### Engineering Manager & Teach leads: a key role in the delivery process
+### Engineering Managers & Teach leads: key roles in the delivery process
 
 The Engineering Manager role at Meetic is one of the things I've been working on the most lately. This role, particularly, varies a lot from one company to another. At Facebook, EMs may work with up to 50 engineers across several teams. In some others, EMs manage a tech community like frontend engineers. My point of view is a combination of things I've seen in several companies. In its book [*Turn The Ship Around*](https://www.amazon.com/Turn-Ship-Around-Building-Breaking/dp/0241250943), L. David Marquet describes what he called "chief in charge". That is to say, chiefs are really in charge of running the ship. Not higher grades. This point of view is what I found to be the closest to my own. But it sets the bar quite high for managers. Especially because they are expected to own a wide range of things: from software architecture to project delivery.
 
@@ -75,7 +85,7 @@ Sharing a common language helps make helpful feedback. Helping people grow both 
 
 However, there is a limit to being hands-on, as a manager. Coding with the team is considered to be an anti-pattern and I mostly agree with that. This is why Tech Leads in my team aren't expected to work on features. This is something we will see later.
 
-#### The managers are the delivery key driver
+#### The managers are the delivery key drivers
 
 Not the PO / PM. Not the Scrum Master. The Manager. By key drive I mean: the one that is accountable for the delivery.
 
@@ -109,17 +119,17 @@ Tech leads have 3 missions.
 
 **They mentor other engineers**. On a day-to-day basis, they help engineers to deliver features. Either by doing reviews and suggesting improvements or by bringing their knowledge when an engineer is stuck.
 
-### Expecting engineers to be problem solvers, not software builders
+### Engineers are problem solvers, not software builders
 
 **In this way of working, engineers are involved in almost every area of work.** In my opinion, this is key to empowerment. But to be honest, there are also downsides. Especially, years over years, I came to the conclusion that involving engineers soon in product thinking works better when people have the right mindset and enough seniority.
 
-To give you a better idea of what we expect from engineers, here is brief description of when they are involved and for what kind of work.
+To give you a better idea of what we expect from engineers, here is a brief description of when they are involved and for what kind of work.
 
 First, during the product thinking and project scoping. They jump pretty soon into the conversation. At this step, **their role is to evaluate the complexity and make suggestions to keep things simple enough.** Most features are designed collaboratively. Sure, the Product Manager and the Designer come up with an idea, a user flow they have worked on. But the final design will be a trade-off to find the quickest way to offer end-user value. All that collaborative work requires good communication and feedback skills.
 
 **Then, during the project scoping engineers also anticipate technical choices according to feature design.** They help their product counterpart to identify edge cases. Often, engineers have a deep understanding of the product. After all, they've built it and they can check the best source of truth (the code) easily. This is also during project scoping that decisions are made about software architecture. Scoping is indeed a good time to challenge both the design and the code. If there are things to change in the software architecture and refactoring to do, this is where we decide to either do the change or postpone it until the next big change. The key is finding the right balance. This is why collaboration and diversity of mindset among engineers are such important topics.
 
-**Finally, when building, engineers break down the work and anticipate dependencies.** They then commit to a realistic amount of work accordingly to priority and urgency. They drive their task across the reviews to minimize the lead time and when something goes wrong, they escalate blockers and delays to their team and manager. To summarize, engineers are expected to fully own their development work. It may sound obvious when talking about software engineers. But yet, this is not. It requires stills that are not only hard. It requires a good aptitude to collaborate, communicate and self-organization.
+**Finally, when building, engineers break down the work and anticipate dependencies.** They then commit to a realistic amount of work accordingly to priority and urgency. They drive their task across the reviews to minimize the lead time and when something goes wrong, they escalate blockers and delays to their team and manager. To summarize, engineers are expected to fully own their development work. It may sound obvious when talking about software engineers. But yet, this is not. It requires skills that are not only hard. It requires a good aptitude to collaborate, communicate and self-organization.
 
 In recent years, engineers' missions and expectations have changed a lot. We're coming from a world where tech people weren't involved in almost any thinking about the product. The teams' missions were to build the product, mostly. But my conviction is that you don't build great products without engineers.
 
@@ -127,7 +137,7 @@ In recent years, engineers' missions and expectations have changed a lot. We're 
 
 #### Hiring T-shaped people: tech-minded and product-minded engineers
 
-A few years, I started to structure the hiring process around identifying [T-shaped people](https://jchyip.medium.com/why-t-shaped-people-e8706198e437) in software development. The idea was to hire engineers good at software and system design instead of just coding. I also wanted to challenge their collaboration and communication skills. I wanted to hire software engineers, not programmers. [Software engineering is what happens to programming when you add time and other programmers](https://research.swtch.com/vgo-eng). It requires more skills than just coding.
+A few years ago, I started to structure the hiring process around identifying [T-shaped people](https://jchyip.medium.com/why-t-shaped-people-e8706198e437) in software development. The idea was to hire engineers good at software and system design instead of being just good at coding. I also wanted to challenge their collaboration and communication skills. I wanted to hire software engineers, not programmers. [Software engineering is what happens to programming when you add time and other programmers](https://research.swtch.com/vgo-eng). It requires more skills than just coding.
 
 At the time, I was Backend Engineering Manager. So, I started with my own team and designed an interview process in 3 steps :
 
@@ -143,9 +153,9 @@ Indeed, to me, most engineers can be placed on a spectrum that ends are tech-min
 
 Tech-minded engineers see the code and its architecture as a finality. In their mind, their role is to produce the best software in terms of design principles, architecture, code quality, etc. They heavily focus on those topics on a day-to-day basis. Tech-minded people are often the ones that do more code reviews, like to get involved in every tech discussion, read a lot about tech and share their reading with their community and tend to push tech projects and refactoring in the roadmap. They have strong opinions on what quality means in terms of code and they want things to be done right.
 
-Product-minded engineers, on the contrary, see the code as a means to build products and bring end-users value. They strongly focus on user flow, design and business value. They actively share their opinions when they shape features with their teams. Most of the time, they also defend their core value (typically, they will tend to push back dark patterns in the UX). However, product-minded people aren't necessarily the kind of engineers that produce low-quality code that is not maintainable in the long run. Being product-minded says nothing of their software development knowledge. Most of the time, they know how to write high-quality code. But they often are followers on those topics. They learn best practices from tech-minded engineers and then apply what they learned.
+Product-minded engineers, on the contrary, see the code as a means to build products and bring end-users value. They strongly focus on user flow, design and business value. They actively share their opinions when they shape features with their teams. Most of the time, they also defend their core value (typically, they will tend to push back dark patterns in the UX). However, product-minded people aren't necessarily the kind of engineers that produce low-quality code that is not maintainable in the long run. Being product-minded says nothing of their software development knowledge and skills. Most of the time, they know how to write high-quality code. But they often are followers on those topics, not leaders. They learn best practices from tech-minded engineers and then apply what they learned.
 
-As Google shown in its [Aristotle project](https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/), diversity of ideas and opinions is key to psychological safety and thus, successful teams. This is why it is important to identify the type of engineer I'm hiring. In the end, the goal is to build teams and communities that are diverse enough to ensure good collaboration on both product and tech. Will it be someone that will raise the bar in its community? Will it be someone that will help the Product Manager and the Designer to shape the best features? Those are the question I try to answer when interviewing candidates.
+As Google has shown in its [Aristotle project](https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/), diversity of ideas and opinions is key to psychological safety and thus, successful teams. This is why it is important to identify the type of engineer I'm hiring. In the end, the goal is to build teams and communities that are diverse enough to ensure good collaboration on both product and tech. Will it be someone that will raise the bar in its community? Will it be someone that will help the Product Manager and the Designer to shape the best features? Those are the question I try to answer when interviewing candidates.
 
 ![engineers spectrum](/images/post/shipping-fast-high-quality/team-community-spectrum.png)
 
@@ -155,4 +165,4 @@ Thus, each new hiring must meet the following requirements :
 - Depending on the state of the squad AND the community, is senior enough. (if the team and the community already count a large part of senior engineers, it's off to hire people with less experience)
 - Depending on the state of the squad AND the community, is tech or product minded.
 
-With that in mind, we conscientiously hire people that fits in the global organization and the outcome we expect from it: ship fast AND maintain high code quality.
+With that in mind, we conscientiously hire people that fit in the global organization and the outcome we expect from it: ship fast AND maintain high code quality.

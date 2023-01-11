@@ -6,7 +6,7 @@ author: Sebastien Le Gall
 categories: [Go, git]
 ---
 
-At work I often have to switch from a repo to another, making some change here and not there, starting a new branch on repo A and then, fixing an issue on repo B. Ideally, a big fat monorepo should help me to deal with the ~40 apps and libs I work on. But monorepos have drawbacks when you're not Facebook or Google. By the time, they become heavier and soon a simple `git status` takes more than 2 seconds.
+At work I often have to switch from a repo to another, making some changes here and not there, starting a new branch on repo A and then, fixing an issue on repo B. Ideally, a big fat monorepo should help me to deal with the ~40 apps and libs I work on. But monorepos have drawbacks when you're not Facebook or Google. By the time, they become heavier and soon a simple `git status` takes more than 2 seconds.
 
 Instead of a monorepo I have built a few script helping me to deal with all those repos. One of them helps me knowing the status of each repository, just to know where I am and what I was doing before being interrupted.
 
