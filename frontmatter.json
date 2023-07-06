@@ -60,8 +60,104 @@
             "technical dept",
             "hiring"
           ]
+        },
+        {
+          "title": "lastmod",
+          "name": "lastmod",
+          "type": "datetime"
         }
       ]
     }
+  ],
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.content.pageFolders": [
+    {
+      "path": "[[workspace]]/archetypes",
+      "title": "archetypes"
+    },
+    {
+      "path": "[[workspace]]/content/about",
+      "title": "about"
+    },
+    {
+      "title": "author",
+      "path": "[[workspace]]/content/author"
+    },
+    {
+      "title": "post",
+      "path": "[[workspace]]/content/post"
+    },
+    {
+      "title": "contact",
+      "path": "[[workspace]]/content/contact"
+    },
+    {
+      "title": "conf",
+      "path": "[[workspace]]/content/post/conf"
+    },
+    {
+      "title": "go",
+      "path": "[[workspace]]/content/post/go"
+    },
+    {
+      "title": "kubernetes",
+      "path": "[[workspace]]/content/post/kubernetes"
+    },
+    {
+      "title": "management",
+      "path": "[[workspace]]/content/post/management"
+    },
+    {
+      "title": "organization",
+      "path": "[[workspace]]/content/post/organization"
+    }
+  ],
+  "frontMatter.taxonomy.tags": [],
+  "frontMatter.taxonomy.categories": [
+    "AI",
+    "API-Gateway",
+    "AWS",
+    "Agile",
+    "Amplify",
+    "Blackbeard",
+    "Dialogflow",
+    "Docker",
+    "Formik",
+    "Github",
+    "Go",
+    "Jabber",
+    "Kubernetes",
+    "Makefile",
+    "Markdown",
+    "MaterialUI",
+    "NLP",
+    "React",
+    "Redux",
+    "XMPP",
+    "agility",
+    "backlog",
+    "cloud native",
+    "cobra",
+    "culture",
+    "docker",
+    "elasticsearch",
+    "emacs",
+    "git",
+    "hiring",
+    "kafka",
+    "logrus",
+    "management",
+    "management 3.0",
+    "organization",
+    "php",
+    "phpunit",
+    "product management",
+    "scrum",
+    "symfony",
+    "talk",
+    "testing",
+    "travis",
+    "vi"
   ]
 }
