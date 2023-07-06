@@ -12,7 +12,7 @@ keywords:
   - Meetic
   - organization
   - interview
-lastmod: 2023-07-06T10:05:16.581Z
+lastmod: 2023-07-06T12:52:03.777Z
 ---
 
 In my previous post about Meetic's engineering organization, I explained how our matrix organizational structure relies on both the hard and soft skills of our software engineers. We need both to maintain high-quality standards in our tech systems and keep pace with product innovations. This requires engineers to be proficient in writing software and collaborating with product teams.
@@ -30,7 +30,7 @@ While testing new hiring processes, I have structured the way Meetic hires engin
 
 Hiring processes are well-known in big tech companies. However, I have found very few details about how companies like Meetic (~300 people, not growing as fast as before, tech-first, etc.) hire.
 
-# Meetic's Design Principles for Hiring Engineers
+## Meetic's Design Principles for Hiring Engineers
 
 First and foremost, it's important to consider that hiring an engineer can be a significant expense. You must take into account the cost of the search process, which depends on whether you employ your own headhunter or hire a contractor to do the search. In addition, there is the cost of the hiring process itself - every hour you spend hiring someone is an hour you're not working on something else that generates value. The more people involved in the process, the higher the cost to the company. Finally, if you're hiring to replace a departing engineer, there's a good chance that the newly hired engineer's compensation will be higher than the previous engineer's.
 
@@ -63,7 +63,7 @@ Sometimes, things go wrong, but it should never be because of a lack of informat
 
 **Whenever there is any doubt, there is no doubt**. This quote is from a popular French movie ([source](https://www.imdb.com/title/tt0122690/)). It means that if anyone involved in the hiring process has doubts, we will not make an offer to the applicant. Everyone must be aligned, and the decision must be a strong "yes" or a definitive "no."
 
-# The Skills We Value and Look for in Our Engineers
+## The Skills We Value and Look for in Our Engineers
 
 Given the challenges our engineers work on and the teams they are part of, we need a clear understanding of applicants' skills. In the second part of this post, I'll explain how we evaluate these skills. But first, let's take a look at the skills required to work at Meetic as a software engineer.
 
@@ -75,7 +75,7 @@ We use it as a checklist throughout the interviews.
 
 Of course, it is impossible to both test every competency and keep the hiring process short. That's why we only effectively test some competencies through a dedicated test. Others are evaluated more informally during the interview. The following describes how we evaluate applicants and the types of questions we ask to better understand their skills.
 
-## Technical skills
+### Technical skills
 
 We do not test coding, debugging, or observability skills. Instead, we seek to understand how applicants have handled situations that require such skills. For instance:
 
@@ -87,7 +87,7 @@ We consider these skills to be mandatory, as most of the engineers we hire have 
 
 However, we do test System Design and Software Architecture skills. In this area, we want to see how applicants apply design patterns in a particular context. There is no one-size-fits-all solution in the software architecture domain; it all depends on the context and the anticipated future evolution. Thus, we dedicate a part of the recruitment process to challenging these skills and seeing how engineers adapt their views to the context.
 
-## Delivery
+### Delivery
 
 Delivery is all about being accountable, self-organized, and focused on end-user value. To assess the applicant experience with this, we have a few questions:
 
@@ -99,7 +99,7 @@ We also ask questions about technical scoping:
 
 - Who was in charge of choosing the right technical solution to build a feature in your previous job? If it wasn't you, did you ever challenge the technical strategy? Have you ever done technical scoping yourself, and how did you work with other engineers in that case? Were they receptive to your point of view on the right technical solution to build?
 
-## Collaboration
+### Collaboration
 
 This area of competency focuses on the applicant's ability to work with other engineers and product managers. We seek to gain a deep understanding of how the applicant worked in their previous team by asking the following questions:
 
@@ -109,7 +109,7 @@ This area of competency focuses on the applicant's ability to work with other en
 - Regarding team retrospectives, have you ever faced criticism in public? How did you react?
 - Are you familiar with [the 4 A rule of feedback](https://www.rocketgtm.co/blog/how%20to%20give%20feedback%20the%20netflix%20way)?
 
-## Leadership
+### Leadership
 
 Leadership skills are not expected from all engineers, but a senior software engineer is a role model. Rather than guiding senior engineers, people look to them for guidance. In his famous book, [High Output Management](https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884), Andrew Grove calls this form of leadership *"know-how managers"*: people who have an impact by influencing others, not through a direct report, but thanks to their expertise.
 
@@ -120,7 +120,7 @@ So, depending on the level of seniority we seek to hire, we may ask questions su
 - What does taking ownership of your decisions mean to you?
 - Have you mentored teammates before? If so, how did you do it?
 
-## Strategic Impact
+### Strategic Impact
 
 Like leadership, the ability to have a strategic impact is not something we expect from all engineers. But tech leaders are expected to set up a technical strategy in their community that is aligned with the overall organization's strategy, share the organization's strategy, explain how their technical strategy is aligned with it, and bring technical insights into the process of shaping features. Although not expected from all engineers, strategic impact is essential at some point, and engineers are expected to contribute to the company's success by bringing their expertise to the table.
 
